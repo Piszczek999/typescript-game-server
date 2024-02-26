@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "start": "npx ts-node app.ts",
+    "dev": "nodemon --exec ts-node app.ts",
+    "build": "npm install",
+    "local": "heroku local dev --port 5001"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.3.3"
+  }
+}
